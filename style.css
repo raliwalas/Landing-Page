@@ -55,3 +55,38 @@ h1 {
     font-weight: bolder;
     color: #f9faf8;
 }
+
+
+/* 
+
+to-do's
+
+x header
+    x header logo (text) and styling
+    x header links styling
+    x background styling
+    o add actual header link content
+
+o make the big image flex, not hard coded
+o fix the button 
+    o make it blue
+    o change text color
+
+o 2nd section
+    o some random info styling
+    o images styling
+    o subtext styling
+    o background color
+o 3rd section
+    o background color
+    o quote text styling - centered
+    o author styling
+o 4th section
+    o margin and background (aka make it look more contained)
+    o call to action text styling
+    o subtext styling
+    o button and styling
+o footer 
+    o colors/styling
+    o centered
+*/
