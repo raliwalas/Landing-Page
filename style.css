@@ -9,17 +9,19 @@ body {
     padding: 8px;
     background-color: #1f2937;
     color: white;
+    justify-content: space-between;
+    font-size: 14px;
 }
 
 .left-header, .right-header {
     display: flex;
     gap: 15px; 
-    justify-items: center;
+    /* align-items: center; */
 }
 
 .logo {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     object-fit: contain;
 }
 
