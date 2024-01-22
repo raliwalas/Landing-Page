@@ -8,15 +8,18 @@ body {
     display: flex;
     padding: 8px;
     background-color: #1f2937;
-    color: white;
+    color: #e5e7eb;
     justify-content: space-between;
-    font-size: 14px;
 }
 
 .left-header, .right-header {
     display: flex;
     gap: 15px; 
-    /* align-items: center; */
+}
+
+.right-header, .header-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .logo {
@@ -27,4 +30,22 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+.first {
+    display: flex;
+    gap: 30px;
+    background-color: #1f2937;
+    padding: 20px;
+}
+
+.big-image {
+    width: 350px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
