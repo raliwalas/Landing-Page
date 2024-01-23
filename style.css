@@ -56,6 +56,19 @@ h1 {
     color: #f9faf8;
 }
 
+.sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-weight: bold;
+    /* rounds the corners of the button 
+    used https://www.w3schools.com/howto/howto_css_round_buttons.asp for reference */
+    border-radius: 8px; 
+}
+
 
 /* 
 
@@ -69,8 +82,9 @@ x header
 
 o make the big image flex, not hard coded
 o fix the button 
-    o make it blue
-    o change text color
+    x make it blue
+    x change text color
+    o fix the padding so there is no space under the header and the subtext
 
 o 2nd section
     o some random info styling
