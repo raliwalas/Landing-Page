@@ -70,6 +70,39 @@ h1 {
 }
 
 
+h2 {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.poster {
+    width: 150px;
+    height: 200px;
+
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    justify-content: center;
+}
+
+.subtext {
+    text-align: center;
+    flex-wrap: center;
+    font-size: 18px;
+    padding-top: 15px;
+}
 /* 
 
 to-do's
@@ -87,10 +120,9 @@ x fix the button
     x fix the padding so there is no space under the header and the subtext
 
 o 2nd section
-    o some random info styling
-    o images styling
-    o subtext styling
-    o background color
+    x some random info styling
+    x images styling
+    x subtext styling
 o 3rd section
     o background color
     o quote text styling - centered
