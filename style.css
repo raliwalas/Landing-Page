@@ -65,18 +65,20 @@ h1 {
 }
 
 .sign-up {
-    background-color: #3882f6;
-    color: #f9faf8;
     border: none;
     padding: 5px;
     padding-left: 3%;
     padding-right: 3%;
-    font-weight: bold;
     /* rounds the corners of the button 
     used https://www.w3schools.com/howto/howto_css_round_buttons.asp for reference */
-    border-radius: 8px; 
 }
 
+.sign-up, .button2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px; 
+    font-weight: bold;
+}
 
 h2 {
     display: flex;
@@ -139,7 +141,8 @@ q {
     display: flex;
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 30px;
+    padding: 50px;
+    justify-content: space-around;
 }
 
 .call {
@@ -153,10 +156,10 @@ q {
 
 .button2 {
     border-color: #f9faf8;
-    border-radius: 3px;
-    background-color: #3882f6;
-    color: #f9faf8;
-
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 /* 
 
