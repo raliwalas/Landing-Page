@@ -134,6 +134,30 @@ q {
     padding-left: 275px;
     margin-top: 25px;
 }
+
+.fourth{
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 30px;
+}
+
+.call {
+    font-weight: bold;
+}
+
+.sub-sign-up {
+    color: #e5e7eb;
+    font-weight: normal;
+}
+
+.button2 {
+    border-color: #f9faf8;
+    border-radius: 3px;
+    background-color: #3882f6;
+    color: #f9faf8;
+
+}
 /* 
 
 to-do's
@@ -154,10 +178,10 @@ x 2nd section
     x some random info styling
     x images styling
     x subtext styling
-o 3rd section
-    o background color
-    o quote text styling - centered
-    o author styling
+x 3rd section
+    x background color
+    x quote text styling - centered
+    x author styling
 o 4th section
     o margin and background (aka make it look more contained)
     o call to action text styling
