@@ -28,6 +28,14 @@ body {
     color: #e5e7eb;
 }
 
+.header-subtext {
+    margin-bottom: 8px;
+}
+
+.intro {
+    flex-basis: 650px;
+}
+
 .logo {
     width: 70px;
     height: 70px;
@@ -43,7 +51,7 @@ ul {
     gap: 30px;
     background-color: #1f2937;
     padding: 20px;
-    justify-content: space-around;
+    justify-content: center
 }
 
 .big-image {
@@ -119,7 +127,7 @@ x fix the button
     x change text color
     x fix the padding so there is no space under the header and the subtext
 
-o 2nd section
+x 2nd section
     x some random info styling
     x images styling
     x subtext styling
