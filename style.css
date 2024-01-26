@@ -5,10 +5,13 @@ body {
 }
 
 .header {
+    justify-content: space-between;
+    color: #e5e7eb;
+}
+
+.header, .footer {
     display: flex;
     background-color: #1f2937;
-    color: #e5e7eb;
-    justify-content: space-between;
     padding: 15px;
 }
 
@@ -165,6 +168,13 @@ q {
     padding-top: 6px;
     padding-bottom: 6px;
 }
+
+.footer {
+    justify-content: center;
+    color: #e5e7eb;
+    font-size: 12px;
+    padding: 15px;
+}
 /* 
 
 to-do's
@@ -189,12 +199,15 @@ x 3rd section
     x background color
     x quote text styling - centered
     x author styling
-o 4th section
-    o margin and background (aka make it look more contained)
-    o call to action text styling
-    o subtext styling
-    o button and styling
-o footer 
-    o colors/styling
-    o centered
+x 4th section
+    x margin and background (aka make it look more contained)
+    x call to action text styling
+    x subtext styling
+    x button and styling
+x footer 
+    x colors/styling
+    x centered
+
+
+o go back into each section and fit details or content to make it all SG related
 */
